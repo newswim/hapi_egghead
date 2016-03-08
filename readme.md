@@ -35,7 +35,7 @@ server.start(() => console.log(`Started at: ${server.info.uri}`))
 
 #### Logging with Good and Good-Console
 
-Hapi doesn't ship with logging support out of the box (other than basic console.log). Ho
+Hapi doesn't ship with logging support out of the box (other than basic console.log). However a bunch of plug-ins are supported:
 
 - [Good](https://github.com/hapijs/good) (process monitor, listens for events from Hapi)
 - [Good-Console](https://github.com/hapijs/good-console) (broadcasts events from Good)
